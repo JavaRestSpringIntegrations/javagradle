@@ -1,0 +1,2 @@
+# javagradle
+Gradle Configuration
