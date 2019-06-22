@@ -1,9 +1,9 @@
 language: java
-install: true
 
 os:
   - linux
-
+dist:
+  - xenial
 cache:
   directories:
     - $HOME/.gradle
