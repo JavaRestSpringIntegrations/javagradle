@@ -5,7 +5,11 @@ jdk:
 sudo: required
 
 before_install:
-  - chmod +x gradlew  
+  - chmod +x gradlew
+  - ./gradlew sonarqube \
+  -Dsonar.projectKey=test \
+  -Dsonar.host.url=http://34.150.154.62 \
+  -Dsonar.login=4c00c89f26656af4420f301635cc37b356c81e03
 os:
   - linux
 dist:
